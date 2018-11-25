@@ -21,27 +21,20 @@
 %----------------------------------------------------------------------------------------
 
 \documentclass{resume} % Use the custom resume.cls style
-
-\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\usepackage[left=0.4 in,top=0.3in,right=0.4 in,bottom=0.6in]{geometry} % Document margins
+\usepackage[colorlinks,linkcolor=black, urlcolor=black]{hyperref}
+\usepackage{graphicx}
+\usepackage{lipsum}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+
 \name{Zhixin Piao} % Your name
-\address{393 Middle Huaxia Road, Pudong, Shanghai, China} % Your address
+\address{Computer Vision, Machine Learning, Deep Learning} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{(+86) 17621504831 \\ piaozhx@shanghaitech.edu.cn \\ piaozhi.xin}  % Your phone number and email
+\address{(+86) 17621504831 \\ piaozhx@shanghaitech.edu.cn \\ www.github.com/piaozhx \\ www.piaozhx.com}
 
 \begin{document}
-
-%----------------------------------------------------------------------------------------
-%	OBJECTIVE
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{RESEARCH INTERESTS}
-
-{Computer Vision, Machine Learning, Deep Learning}
-
-
-\end{rSection}
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
@@ -50,52 +43,118 @@
 
 {\bf ShanghaiTech University} \hfill {\bf Shanghai China}
 \\ 
-School of Information Science and Technology, M.S. in Computer Science \hfill {Sep. 2017 - Present}
+School of Information Science and Technology, M.S. in Computer Science \hfill {\em Sep. 2017 - Present}
 \\
 Advisor: Prof. Shenghua Gao, Major in  Computer Vision
 
 {\bf SouthEast University} \hfill {\bf Nanjing China}
 \\ 
-School of Computer Science and Engineering, B.S. in Computer Science \hfill {Sep. 2013 - Jun. 2017}
+School of Computer Science and Engineering, B.S. in Computer Science \hfill {\em Sep. 2013 - Jun. 2017}
 \\
 Advisor: Prof. Guilin Qi, Major in Data Mining
-
-
 \end{rSection}
+
+
+\begin{rSection}{Skill} \itemsep -5pt {} 
+    \item \textbf{Research Insterent:} Trajectory Prediction, Image Sementation, Human Pose Estimation, Object Tracking
+    \item \textbf{Programming:} \textbf{Python(Pytorch, Tensorflow), C++, Matlab}, 了解JS, CSS, HTML基本知识
+    \item \textbf{Knowledge:} Tornado, Bootstrap, Docker, Git
+\end{rSection}
+    
+%----------------------------------------------------------------------------------------
+%	AWARDS AND HONORS
+%----------------------------------------------------------------------------------------
+\begin{rSection}{AWARDS AND HONORS}  \itemsep -5pt {} 
+    \item The {\bf 1st Prize} in China Undergraduate Mathematical Contest in Modeling (\textbf{CUMCM}), Jiangsu Province \hfill Jul. 2015
+    \item The {\bf 2nd Prize(Honorable Mention)} in Mathematical Contest in Modeling (\textbf{MCM}), America \hfill Feb. 2016
+    \item The {\bf 3rd Prize} in Collegiate Programming Contest, Jiangsu Province \hfill May. 2016
+\end{rSection} 
+    
+    
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+\begin{rSection}{WORK EXPERIENCE}
+    {\bf ShanghaiTech University} {\em School of Information Science and Technology}  \hfill {\bf Shanghai\ China} \\
+    $\cdot$ High Performance Cluster(HPC) {\bf DevOps Assistant} \hfill {\em May. 2018 - Present}
+
+\end{rSection} 
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
 %----------------------------------------------------------------------------------------
 \begin{rSection}{PUBLICATIONS}
-    \begin{pubSubsection}{Encoding Crowd Interaction with Deep Neural Network for Pedestrian Trajectory Prediction}{Jan. 2018}{Zhixin Piao}{}
-        \item In Proceedings of IEEE Conference on Computer Vision and Pattern Recognition (\textbf{CVPR}) 2018
+    \begin{pubSubsection}{Encoding Crowd Interaction with Deep Neural Network for Pedestrian Trajectory Prediction}{Feb. 2018}{Yanyu X$u^*$, \textbf{Zhixin Piao}$^*$, Shenghua Gao}{(* means equal contribution)}
+        \item Accepted by \textbf{CVPR} 2018
     \end{pubSubsection} 
-    
     \begin{pubSubsection}{Entity Linking in Web Tables with Multiple Linked Knowledge Bases}{Nov. 2016}{Tianxing Wu, Shengjia Yan, \textbf{Zhixin Piao}, Liang Xu, Ruiming Wang, Guilin Qi}{}
-        \item In Joint International Semantic Technology Conference (\textbf{JIST}) 2016
+        \item Accepted by \textbf{J}oint \textbf{I}nternational \textbf{S}emantic \textbf{T}echnology Conference (\textbf{JIST}) 2016
     \end{pubSubsection} 
 \end{rSection} 
 
-%----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
+% %----------------------------------------------------------------------------------------
+% %	WORK EXPERIENCE SECTION
+% %----------------------------------------------------------------------------------------
+% \begin{rSection}{RESEARCH EXPERIENCES}
+
+% \begin{rSubsection}{DAVIS Challenge on Video Object Segmentation}{\bf Shanghai China}{Research Project, ShanghaiTech}{Jan. 2018 - Present} 
+% \item Segment objects of interests in a video when given the mask of the first frame
+% \item Explore more efficient algorithm
+% \end{rSubsection} 
+
+% \end{rSection} 
+
 \begin{rSection}{RESEARCH EXPERIENCES}
 
-\begin{rSubsection}{DAVIS Challenge on Video Object Segmentation}{\bf Shanghai China}{Research Project, ShanghaiTech}{Jan. 2018 - Present} 
-\item Segment objects of interests in a video when given the mask of the first frame
-\item Explore more efficient algorithm
-\end{rSubsection} 
+\begin{rSubsection}{Human Motion Transfer}{\bf Shanghai\ China}{Research project, ShanghaiTech University}{Present}{../img/human_motion_transfer.png}
+    \item Propose Human Distangle Model(HDM) to estimation human pose, shape and texture
+    \item Implement human motion transfer by HDM and multiple view GAN
+    \item Totally unsupervised learning and strong interpretation for texture 
+\end{rSubsection}
 
+\begin{rSubsection}{Encoding Crowd Interaction with Deep Neural Network for Pedestrian Trajectory Prediction}{\bf Shanghai\ China}{Research Project, ShanghaiTech University(Accepted by CVPR2018)}{Oct. 2017}{../img/1.png}
+    \item Propose CIDNN to extractor spatial and temporal feature form  multiple object attention
+    \item Best performance on multiple popular dataset (GC, Subway by CUHK etc.)
+    \item Easy to re-implement and fast(1.91 ms/f on CPU, 0.43 ms/f on GPU)
+\end{rSubsection}
+
+\begin{rSubsection}{A Simple Baseline for Unsupervised Video Object Segmentation}{\bf Shanghai\ China}{Research Project, ShanghaiTech University}{Sep. 2018}{../img/vos.png}
+    \item Propose Stacked-ConvLSTM and Cascade module for unsupervised Video Object Segmentation
+    \item First RGB based feature(without optical flow) work on this task
+    \item a new data augmentation to overcome small dataset problem 
+\end{rSubsection}
+
+\begin{rSubsection}{Context Awared Object Tracking By Deep Reinforcement Learning}{\bf Shnaghai\ China}{Course Project, ShanghaiTech University(CS280 Deep Learning)}{Dec. 2017}{../img/Tracking.png}
+    \item Implement Correlation-Filter algorithm by multiple feature(HOG, Histogram)
+    \item Propose a Context Awared object tracking method by Deep Reinforcement Learning(A3C)
+\end{rSubsection}
+
+\begin{rSubsection}{Entity Linking in Web Tables with Multiple Linked Knowledge Bases}{\bf Nanjing\ China}{Research Project, SouthEast University (Accepted by JIST2016)}{Jun. 2016}{../img/entity_link.png}
+    \item Propose a random-walking based algorithm for Entity Linking in web tables
+\end{rSubsection}
+            
 \end{rSection} 
 
-%----------------------------------------------------------------------------------------
-%	AWARDS AND HONORS
-%----------------------------------------------------------------------------------------
-\begin{rSection}{AWARDS AND HONORS} \itemsep -1pt {}   
-\item The {\bf 1st Prize} in China Undergraduate Mathematical Contest in Modeling (\textbf{CUMCM}), Jiangsu Province \hfill Jul. 2015
-\item The {\bf 2nd Prize(Honorable Mention)} in Mathematical Contest in Modeling (\textbf{MCM}), America \hfill Feb. 2016
-\item The {\bf 3st Prize} in Collegiate Programming Contest, Jiangsu Province \hfill May. 2016
-\item The {\bf 3st Prize} in The 12th Programming Contest, Southeast University \hfill May. 2016
-\end{rSection} 
+\begin{rSection}{PROGRAMMING EXPERIENCES}
+
+\begin{rSubsection}{Docker Monitor and Manager System}{\bf Shanghai\ China}{DevOps Project  \href{https://github.com/piaozhx/DockerMonitor}{{\color{blue}{[Github]}}}    }{Sep. 2018}{../img/docker.jpg}
+    \item Build a deep learning developing environment (Including Tensorflow, Pytorch, Mxnet...)
+    \item Build a container manager system(based on tornado, mariaDB, bootstrap, mkDocs...)
+    \item Exclude it to multiple user container system
+\end{rSubsection}
+
+\begin{rSubsection}{MiniC Compiler++ (ASM \& COE) IDE}{\bf Nanjing\ China}{Course Project, SouthEast University   \href{https://github.com/piaozhx/CompilerIDE}{{\color{blue}{[Github]}}}     }{Dec. 2016}{../img/CompilerIDE.jpg}
+    \item Compile miniC to asm code(include 57 mips code)
+    \item Compile asm code to coe code(a.k.a machine code)
+    \item Visualize Compiler by Compiler Monitor(based on PyQt4)
+\end{rSubsection}
+
+
+\begin{rSubsection}{MiniC Compiler (Lex \& Yacc) }{\bf Nnajing\ China}{Course Project, SouthEast University  \href{https://github.com/seucs/compiler}{{\color{blue}{[Github]}}}    }{Aug. 2016}{../img/minic.png}
+    \item Visualize NFA、DFA by GraphViz.
+    \item Implement lec and yacc just by Python
+\end{rSubsection}
+    
+\end{rSection}
 
 \end{document}

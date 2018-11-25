@@ -28,6 +28,7 @@
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 
+
 \name{朴智新1} % Your name
 \address{计算机视觉, 机器学习, 深度学习相关方向} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
@@ -95,11 +96,6 @@
     \begin{pubSubsection}{Encoding Crowd Interaction with Deep Neural Network for Pedestrian Trajectory Prediction}{2018年2月}{Yanyu X$u^*$, \textbf{Zhixin Piao}$^*$, Shenghua Gao}{(*为并列一作)}
         \item Accepted by \textbf{CVPR} 2018
     \end{pubSubsection} 
-
-    \begin{pubSubsection}{A Simple Baseline for Unsupervised Video Object Segmentation}{2018年9月}{Jia Zheng, Weixin Luo, \textbf{Zhixin Piao}, Shenghua Gao}{}
-        \item Submitting to \textbf{AAAI} 2019
-    \end{pubSubsection} 
-    
     \begin{pubSubsection}{Entity Linking in Web Tables with Multiple Linked Knowledge Bases}{2016年11月}{Tianxing Wu, Shengjia Yan, \textbf{Zhixin Piao}, Liang Xu, Ruiming Wang, Guilin Qi}{}
         \item Accepted by \textbf{J}oint \textbf{I}nternational \textbf{S}emantic \textbf{T}echnology Conference (\textbf{JIST}) 2016
     \end{pubSubsection} 
@@ -107,24 +103,24 @@
 
 
 %----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE SECTION
+%	Research SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{研究经历}
 
-\begin{rSubsection}{3D Human Pose/Shape Estimation}{\bf 上海\ 中国}{科研项目, 上海科技大学}{目前}{img/Pose.png}
+\begin{rSubsection}{3D Human Pose/Shape Estimation}{\bf 上海\ 中国}{科研项目, 上海科技大学}{目前}{../img/Pose.png}
     \item 利用DNN在基于SMPL的人体模型上估计人体参数与相机参数
     \item 基于Video的人体纹理恢复与抖动消除
     \item 基于以上两点的人体动作迁移(Human Action Transfer)
 \end{rSubsection}
 
-\begin{rSubsection}{Encoding Crowd Interaction with Deep Neural Network for Pedestrian Trajectory Prediction}{\bf 上海\ 中国}{科研项目, 上海科技大学(相关论文已发表于CVPR2018)}{2017年10月}{img/1.png}
+\begin{rSubsection}{Encoding Crowd Interaction with Deep Neural Network for Pedestrian Trajectory Prediction}{\bf 上海\ 中国}{科研项目, 上海科技大学(相关论文已发表于CVPR2018)}{2017年10月}{../img/1.png}
     \item 提出CIDNN网络提取空间与时间特征从而获取多目标Attention的行人轨迹预测算法
     \item 在多个数据集(GC, Subway by CUHK等)下达到最好性能
     \item 框架精简易于复现，运行时间短(1.91 ms/f on CPU, 0.43 ms/f on GPU)
 \end{rSubsection}
 
 
-\begin{rSubsection}{A Simple Baseline for Unsupervised Video Object Segmentation}{\bf 上海\ 中国}{科研项目, 上海科技大学(相关论文已提交AAAI2019)}{2018年9月}{img/vos.png}
+\begin{rSubsection}{A Simple Baseline for Unsupervised Video Object Segmentation}{\bf 上海\ 中国}{科研项目, 上海科技大学(相关论文已提交AAAI2019)}{2018年9月}{../img/vos.png}
     \item 使用Stacked-ConvLSTM和Cascade module做Unsupervised Video Object Segmentation
     \item 第一项仅使用RGB信息来模拟无监督视频对象分割的时间一致性的工作, 取代了传统光流来编码时间信息
     \item 通过语义连贯的合成数据生成策略来增强训练序列，以克服数据不足的问题
@@ -132,19 +128,19 @@
 \end{rSubsection}
 
 
-\begin{rSubsection}{One-Shot/Zero-Shot Video Object Segmentation}{\bf 上海\ 中国}{竞赛项目, CVPR2018 Workshop}{2018年9月}{img/DAVIS.png}
+\begin{rSubsection}{One-Shot/Zero-Shot Video Object Segmentation}{\bf 上海\ 中国}{竞赛项目, CVPR2018 Workshop}{2018年9月}{../img/DAVIS.png}
     \item 仅在给出第一帧Mask(One-Shot)或完全没有先验(Zero-Shot)的基础上的视频目标分割
     \item 尝试不同BackBone(Multi- Scale FCN, Res-U-Net, DeepLab等), 结合Template matching与Temporal propagation的算法来解决One-Shot Setting
     \item 提出一种基于ConvLSTM与Res-U-Net的算法来解决Zero-Shot Setting
 \end{rSubsection}
 
 
-\begin{rSubsection}{Context Awared Object Tracking By Deep Reinforcement Learning}{\bf 上海\ 中国}{课程项目, 上海科技大学(CS280 Deep Learning)}{2017年12月}{img/Tracking.png}
+\begin{rSubsection}{Context Awared Object Tracking By Deep Reinforcement Learning}{\bf 上海\ 中国}{课程项目, 上海科技大学(CS280 Deep Learning)}{2017年12月}{../img/Tracking.png}
     \item 实现几种基于不同特征（颜色直方图、HOG等）的相关滤波目标跟踪算法
     \item 提出一种通过深度强化学习(A3C)获取全局状态来动态调整目标跟踪所使用的特征的算法
 \end{rSubsection}
 
-\begin{rSubsection}{Entity Linking in Web Tables with Multiple Linked Knowledge Bases}{\bf 南京\ 中国}{科研项目, 东南大学 (相关论文已发表于 JIST2016)}{2016年6月}{img/entity_link.png}
+\begin{rSubsection}{Entity Linking in Web Tables with Multiple Linked Knowledge Bases}{\bf 南京\ 中国}{科研项目, 东南大学 (相关论文已发表于 JIST2016)}{2016年6月}{../img/entity_link.png}
     \item 提出一种基于随机游走算法的表格类实体链接算法
 \end{rSubsection}
         
@@ -152,13 +148,13 @@
 
 \begin{rSection}{开发经历}
 
-\begin{rSubsection}{Docker Monitor and Manager System}{\bf 上海\ 中国}{运维项目, 高性能集群容器化及其web端管理系统 \href{https://github.com/piaozhx/DockerMonitor}{{\color{blue}{[Github]}}}    }{2018年9月}{img/docker.jpg}
+\begin{rSubsection}{Docker Monitor and Manager System}{\bf 上海\ 中国}{运维项目, 高性能集群容器化及其web端管理系统 \href{https://github.com/piaozhx/DockerMonitor}{{\color{blue}{[Github]}}}    }{2018年9月}{../img/docker.jpg}
     \item docker虚拟化集群使环境隔离, 不需要传统用户模式限制用户权限来维持生产环境
     \item 使用deepo镜像作为深度学习开发环境, 内置常见所有环境, 无需为装库烦恼
     \item 开发基于tornado, mariaDB, bootstrap, mkDocs的web端管理系统
 \end{rSubsection}
 
-\begin{rSubsection}{MiniC Compiler++ (ASM \& COE) IDE}{\bf 南京\ 中国}{课程项目, 东南大学 (计算机综合课设)   \href{https://github.com/piaozhx/CompilerIDE}{{\color{blue}{[Github]}}}     }{2016年12月}{img/CompilerIDE.jpg}
+\begin{rSubsection}{MiniC Compiler++ (ASM \& COE) IDE}{\bf 南京\ 中国}{课程项目, 东南大学 (计算机综合课设)   \href{https://github.com/piaozhx/CompilerIDE}{{\color{blue}{[Github]}}}     }{2016年12月}{../img/CompilerIDE.jpg}
     \item 基于Lex和Yacc工具将简单的MiniC程序编译成含有57条mips指令的asm(汇编)代码
     \item 所有asm代码会进一步被编译成coe(机器码)
     \item 基于PyQt4制作跨平台IDE, 将编译步骤可视化进行
@@ -166,7 +162,7 @@
 \end{rSubsection}
 
 
-\begin{rSubsection}{MiniC Compiler (Lex \& Yacc) }{\bf 南京\ 中国}{课程项目, 东南大学 (编译原理课设)  \href{https://github.com/seucs/compiler}{{\color{blue}{[Github]}}}    }{2016年8月}{img/minic.png}
+\begin{rSubsection}{MiniC Compiler (Lex \& Yacc) }{\bf 南京\ 中国}{课程项目, 东南大学 (编译原理课设)  \href{https://github.com/seucs/compiler}{{\color{blue}{[Github]}}}    }{2016年8月}{../img/minic.png}
     \item 使用了 networks 中 MutiDiGraph可重边可有回路的有向图来表示 NFA
     \item 最后生成的 NFA、DFA 用 GraphViz 直接画出图形，可以直观方便地观察生成的结果
     \item 通过python动态添加函数的功能将yacc中的语义动作动态的加入类中，从而实现不生成临时代码来执行yacc中的语义动作
